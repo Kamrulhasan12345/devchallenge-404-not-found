@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "header", "img", "body", "footer";
+}
+
+.header {
+  font-family: "Inconsolata", monospace;
+}
