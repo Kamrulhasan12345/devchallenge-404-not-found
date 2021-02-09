@@ -66,9 +66,38 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  
+  .header {
+    font-size: 25px;
+    padding-left: 24px;
+    padding-top: 20px;
+  }
+
   .body {
     grid-template-columns: none;
     grid-template-rows: auto auto;
+  }
+
+  .img {
+    width: 285px;
+    padding-top: 64px;
+  }
+
+  .head {
+    padding-left: 24px;
+  }
+
+  .head h1 {
+    font-size: 48px;
+    width: 350px;
+  }
+
+  .head p {
+    font-size: 18px;
+    width: 328px;
+  }
+
+  .footer {
+    font-size: 14px;
+    padding-bottom: 10px;
   }
 }
